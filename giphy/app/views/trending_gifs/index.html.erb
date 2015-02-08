@@ -1,0 +1,11 @@
+<div>
+    <% @images.each do |img| %>
+        <ul>
+          <li>
+            <a href="<%= img.source %>" title="Click to view original image.">
+              <img src="<%= img.source %>" style="height: 250px; width: 250px">
+            </a>
+          </li>
+        </ul>
+    <% end %>
+</div>

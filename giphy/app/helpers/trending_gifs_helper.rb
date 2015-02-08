@@ -1,0 +1,2 @@
+module TrendingGifsHelper
+end
